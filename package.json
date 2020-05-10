@@ -5,6 +5,9 @@
   "author": "John Brayton <jbrayton@goldenhillsoftware.com>",
   "homepage": "https://mercury.postlight.com",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbrayton/mercury-parser.git"

@@ -22,16 +22,16 @@ Mercury Parser allows you to easily create custom parsers using simple JavaScrip
 
 ```bash
 # If you're using yarn
-yarn add @postlight/mercury-parser
+yarn add @v2land/mercury-parser
 
 # If you're using npm
-npm install @postlight/mercury-parser
+npm install @v2land/mercury-parser
 ```
 
 ### Usage
 
 ```javascript
-import Mercury from '@postlight/mercury-parser';
+import Mercury from '@v2land/mercury-parser';
 
 Mercury.parse(url).then(result => console.log(result));
 
@@ -116,9 +116,9 @@ from your command line like so:
 
 ```bash
 # Install Mercury globally
-yarn global add @postlight/mercury-parser
+yarn global add @v2land/mercury-parser
 #   or
-npm -g install @postlight/mercury-parser
+npm -g install @v2land/mercury-parser
 
 # Then
 mercury-parser https://postlight.com/trackchanges/mercury-goes-open-source
